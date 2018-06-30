@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Insights EmailSender</title>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span>Insights</span> EmailSender</h1>
+    <div class="wrapper animated bounceInRight">
+
+
+            <div class="contact">
+
+              <div class="panel-body">
+
+
+                   <div class="col-sm-3 nopadding">
+              <div class="form-group">
+                <input type="text" class="form-control" id="Schoolname" name="inputNames[]" value="" placeholder="Name">
+              </div>
+            </div>
+            <div class="col-sm-3 nopadding">
+              <div class="form-group">
+                <input type="text" class="form-control" id="Major" name="inputEmails[]" value="" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-sm-3 nopadding">
+              <div class="form-group">
+                <input type="text" class="form-control" id="Degree" name="inputUserNames[]" value="" placeholder="Username">
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-3 nopadding">
+              <div class="form-group">
+                <div class="input-group">
+                  <input class="form-control" id="educationDate" name="inputPasswords[]" value="" placeholder="Password">
+
+
+
+
+                </div>
+
+              </div>
+              <div class="input-group-btn">
+                <button class="btn btn-success" type="button"  onclick="userFields();"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> </button>
+              </div>
+            </div>
+            <div id="users">
+
+                  </div>
+            <div class="clear"></div>
+
+              </div>
+
+              <button type="button" name="button" onClick="getAllInputs()">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='app.js'></script>
+  <script src='app2.js'></script>
+
+
+
+</body>
+</html>
