@@ -20,7 +20,7 @@ function getAllInputs(){
   setNamePasswordMessage();
   send1();
   send2();
-  rel();
+  // rel();
 }
 
 function send1(){
@@ -34,6 +34,7 @@ function send1(){
   xhr[i].onreadystatechange = function () {
       if (xhr[i].readyState == 4 && xhr[i].status == 200) {
           var json = JSON.parse(xhr[i].responseText);
+          // rel()
   }
 }
   arrayTest2.push(arrayEmails[i])
@@ -43,7 +44,7 @@ function send1(){
   xhr[i].send(data);
   console.log(arrayTest)
   arrayTest2.splice(0, 2);
-  }
+}
 }
 
 
@@ -84,6 +85,7 @@ function getUsername(){
 }
 function getEmail(){
   var inputEmails = document.getElementsByName('inputEmails[]');
+   console.log(inputEmails)
   for(i = 0; i < inputEmails.length; i++)
   arrayEmails.push(inputEmails[i].value)
   return arrayEmails;
@@ -119,10 +121,10 @@ function setNamePassword(name, password){
   return msg
 }
 
-
-function rel(){
-  setTimeout(function(){
-    location.reload(true);
-
-  }, 1500);
-}
+// 
+// function rel(){
+//   setTimeout(function(){
+//     location.reload(true);
+//
+//   }, 1500);
+// }

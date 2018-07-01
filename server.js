@@ -3,7 +3,7 @@ var app = require('express')();
 var path = require('path');
 const sgMail = require('@sendgrid/mail');
 var bodyParser = require('body-parser');
-sgMail.setApiKey('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');
+sgMail.setApiKey('');
 
 
 
@@ -30,7 +30,7 @@ app.post('/add', function(request, response){
 
 const msg = {
   to: `${data1[0]}`,
-  from: 'support@craneware.com',
+  from: 'daniellara@hotmail.com',
   subject: 'Your Insights Account',
   text: 'LJÑ',
   html:`<strong>${data1[1]}</strong>`,
