@@ -3,15 +3,14 @@
 }
 
 body{
-  background:#92bde7;
+  /* background:#92bde7; */
+  background:#333333;
   color:#485e74;
   line-height:1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding:1em;
 }
-canvas {
-  border: 1px solid black;
-}
+
 
 .container{
   max-width:1170px;
@@ -51,9 +50,12 @@ ul{
 }
 
 .contact{
-  background:#f9feff;
+  background:#333333;
 }
 
+/* #sketch-holder{
+  border:30px solid black;
+} */
 /* FORM STYLES */
 /* .contact form{
   display: grid;
@@ -110,8 +112,4 @@ ul{
   .company-info h3, .company-info ul, .brand{
     text-align: left;
   }
-}
-
-canvas {
-  border: 1px solid black;
 }

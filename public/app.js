@@ -109,13 +109,13 @@ function setNamePasswordMessage(){
   return msgs2;
 }
 function setNameUsername(name, username){
-  msg = "Hi " + name + ",<br>" + "\n" + "<br>I have created an InSights account for you. <br>Your username to log into InSights is as follows;<br>" +
-  "\n" + "-" + username + "<br>\n" +
-  "Your password will be sent to you in a separate email. <br>If you have any problems or questions, please let us know.<br> Kind regards, <br>Craneware Support";
+  msg = "Hi " + name + ",<br><br>" + "I have created an InSights account on your behalf. <br><br>Your username to log into InSights is as follows;<br><br>" +
+  "\n" + "-" + username + "<br><br>" +
+  "Your password will be sent to you in a separate email. <br><br>If you have any problems or questions, please let us know.<br><br> Kind regards, <br>Craneware Support";
   return msg;
 }
 function setNamePassword(name, password){
-  msg = "Hi " +  name + ", Your password to log into InSights is as follows;" + password + "The login page can be located here;https://insight.craneware.com/ Your username will be sent to you in a separate email. If you have any problems or questions, please let us know. Kind regards, Craneware Support"
+  msg = "Hi " +  name + ",<br><br> Your password to log into InSights is as follows;<br><br>" + "-" + password + "<br><br>The login page can be located here;<br><br>https://insight.craneware.com/<br><br> Your username will be sent to you in a separate email.<br><br> If you have any problems or questions, please let us know. <br><br>Kind regards, <br>Craneware Support"
   return msg
 }
 
